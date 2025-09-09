@@ -1,0 +1,7 @@
+# Dockerfile
+FROM safarov/freeswitch
+
+RUN wget -O - https://www.openssl.org/source/openssl-1.1.1u.tar.gz | tar zxf -
+RUN cd openssl-1.1.1u; ./config --prefix=/usr/local
+
+# CMD ["node", "app.js"]
