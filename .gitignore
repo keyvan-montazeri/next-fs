@@ -1,0 +1,4 @@
+\.DS_Store
+next-fs/.next
+next-fs/node_modules
+llm-docker-fastapi/models/gpt4all-falcon-newbpe-q4_0.gguf
